@@ -1,0 +1,38 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package testejoptionpane;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author aluno
+ */
+public class TesteJOptionPane {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+            
+      String retorno = JOptionPane.showInputDialog(null, "Digite seu nome:");
+        System.out.println(retorno);
+        
+        JOptionPane.showMessageDialog(null, "Bem Vindo " 
+                + retorno, "Login com sucesso", JOptionPane.WHEN_IN_FOCUSED_WINDOW); 
+        
+         JOptionPane.showMessageDialog(null, "Conhece o Jorge? " 
+                + retorno, "Amigo suspeito", JOptionPane.INFORMATION_MESSAGE); 
+         
+          JOptionPane.showMessageDialog(null, "Atenção!! Ele da ré no kibe viu " 
+                + retorno, "Conselho", JOptionPane.WARNING_MESSAGE); 
+        
+
+
+   }
+    
+}
+
