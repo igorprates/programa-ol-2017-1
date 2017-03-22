@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package testejoptionpane;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author aluno
+ */
+public class ObjectItem {
+    public static void main(String[] args) {
+        Object[] itens = {"Novato", "Vinicius",};
+        Object selectedValue = JOptionPane.showInputDialog (null, "Escolha um Nome de gay:", "Opção",
+                JOptionPane.INFORMATION_MESSAGE, null, itens, itens[0]);
+        
+         JOptionPane.showMessageDialog(null, "Confirme se ele anda com garotas da faculdade ",
+         "", JOptionPane.INFORMATION_MESSAGE); 
+          JOptionPane.showMessageDialog(null, " Cuidado que ele é igual o sol da manhã"
+        , "", JOptionPane.WARNING_MESSAGE);
+           JOptionPane.showMessageDialog(null, "Voce acha que nao queima mas queima sim "
+        , "", JOptionPane.ERROR_MESSAGE);   
+            JOptionPane.showMessageDialog(null, " Novato é gay"
+        , "", JOptionPane.INFORMATION_MESSAGE);   
+    }
+    
+}
