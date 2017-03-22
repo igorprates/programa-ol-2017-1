@@ -1,0 +1,31 @@
+package testejoptionpane;
+
+public class TesteInclemento {
+
+
+    public static void main(String[] args) {
+      
+        int prefixo;
+        int sufixo;
+        
+        int numero =5;
+        
+        prefixo = ++numero;
+        System.out.println("Numero apos prefixo: " + numero);
+        
+        sufixo = numero++;
+        
+        System.out.println("Numero apos sufixo: " + numero);
+        System.out.println("Prefixo: " + prefixo);
+        System.out.println("sufixo: " + sufixo);
+        
+        int a = 5;
+        int x = a++;
+        System.out.println("X: " + x);
+        
+        int b = 5;
+        x = ++b;
+        System.out.println("X: " + x);
+    }
+    
+}
